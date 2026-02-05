@@ -73,7 +73,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 ​
 **FILE LIST**
 ​
- **CyCIF Image Data**
+ ## **CyCIF Image Data**
 ​
 |Patient or Biospecimen ID | File Name       | Location| File size (GB) |
 |------- | ----------------|---------|-----------|
