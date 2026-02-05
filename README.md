@@ -50,15 +50,14 @@ ACCESS THE DATASET
 ​
 Each folder corresponds to a patient sample (N). <Edit as needed if this folder structure does not fit the needs of your paper> 
  
-|File Type     | Description                                                                        | Location|
-|--------      | -----------------------------------------------------------------------------------|---------|
-|N.ome.tif     | Stitched multiplex CyCIF image pyramid in ome.tif format                           | AWS     |
-|N.ome.tif     | Hematoxylin and Eosin stained image of adjacent FFPE tissue section in .vsi format | AWS     |
-|N-cellRing. \
-   ome.tif     | Segmentation mask image                                                            | AWS     |
-|N.csv         | single-cell feature table, including intensity data for all channels               | AWS     |
-|raw/          | folder of raw IF image data in .rcpnl format                                       | AWS     |
-| N.fastq      | Sequencing data                                                                    | GEO     |
+|File Type           | Description                                                                        | Location|
+|--------------------| -----------------------------------------------------------------------------------|---------|
+|N.ome.tif           | Stitched multiplex CyCIF image pyramid in ome.tif format                           | AWS     |
+|N.ome.tif           | Hematoxylin and Eosin stained image of adjacent FFPE tissue section in .vsi format | AWS     |
+|N-cellRing. ome.tif | Segmentation mask image                                                            | AWS     |
+|N.csv               | single-cell feature table, including intensity data for all channels               | AWS     |
+|raw/                | folder of raw IF image data in .rcpnl format                                       | AWS     |
+| N.fastq            | Sequencing data                                                                    | GEO     |
 ​
 ​
 ## AWS Data Access  
