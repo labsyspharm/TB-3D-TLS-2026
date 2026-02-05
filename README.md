@@ -82,7 +82,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 |Patient or Biospecimen ID | File Name       | Location| File size |
 |------- | ----------------|---------|-----------|
 |ID | ID.ome.tif | AWS     | N.N GB   |
-Patient1_B4 	LSP24522.ome.tif	AWS	222.37
+Patient1_B4 |	LSP24522.ome.tif |	AWS	| 222.37
 Patient1_B4 	LSP24525.ome.tif	AWS	202.51
 Patient1_B4	LSP24528.ome.tif	AWS	202.57
 Patient1_B4	LSP24531.ome.tif	AWS	225.94
