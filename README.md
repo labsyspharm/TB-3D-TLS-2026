@@ -41,7 +41,6 @@ Relevant links:
 --------------------
 ACCESS THE DATASET 
 --------------------
-​
 ## File organization:   
 **Each file follows the following naming convention:**    
 ​
