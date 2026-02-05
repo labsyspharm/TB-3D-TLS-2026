@@ -62,7 +62,7 @@ Each folder corresponds to a patient sample (N). <Edit as needed if this folder 
 ​
 ## AWS Data Access  
 ​
-X, Y, Z data is available for download through AWS. 
+Full-resolution CyCIF images, single cell segmentation masks, and cell count tables will be available via AWS.​You will need the following bucket name:
 ​
 **You will need the following bucket name:**  
 ```
@@ -71,14 +71,9 @@ AWS BUCKET NAME
 ​
 *For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
   
-If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".  
-​
-## Synapse Library
-​
-X, Y, Z, data is available on Synapse at: [synapse.org/MY-PUBLIC-SYNAPSE-LIBRARY](https://www.synapse.org/MY-PUBLIC-SYNAPSE-LIBRARY)  
-​
+If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".​
 ## Other Repository 
-<if applicable>  
+Image data generated during this study are available on the Gates TB Data Portal (https://idp.tissue-atlas.org/). For access, email tissue-atlas(at)hms.harvard.edu with the subject line "Gates TB Data Portal: Data Access".  
 ​
 ## FILE LIST  
 <List all files (or folders, as appropriate for dataset organization) contained in each repository, with a brief description. If you are depositing certain file types into public, standardized repositories that already include a file index & metadata, you can link to that repository instead of listing all individual files. For all other data, (on AWS, etc) list all files. >  
