@@ -1,5 +1,4 @@
-# TB-3D-TLS-2026
-Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas
+#Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas
 
 # Data Access Information
 ------------------ 
