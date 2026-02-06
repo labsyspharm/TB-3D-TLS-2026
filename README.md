@@ -281,3 +281,11 @@ ADDITIONAL NOTES/COMMENTS
 --------------------------
 ​
 ​Please contact tissue-atlas(at)hms.harvard.edu if you have any questions related to the data.
+
+## Contributors
+
+- **Soheil** — GeoMx analysis and spatial modeling  
+  GitHub: https://github.com/RTSoheil
+
+- **Emmanuel Ogbonna** — Project lead; CyCIF, 3D reconstruction, TLS analysis  
+  GitHub: https://github.com/emo963
