@@ -267,7 +267,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 | Patient1_B5 | LSP16105.csv    | 2.24 | EO5_B5 and AHRI samples |
 
 
-### 3D Imaris Image Data
+### 3D Image Data (in Imaris Format)
 
 | Patient ID  | File Name                 | Location | File Size (GB) |
 |-------------|---------------------------|----------|---------------|
