@@ -1,0 +1,14 @@
+workflow:
+  start-at: illumination
+  stop-at: quantification
+  background: false
+options:
+  ashlar: --barrel-correction 3.041e-09
+  unmicst: --channel 1 --scalingFactor 0.5
+  s3seg: --maxima-footprint-size 11 --area-max 50000 --expand-size 6 --pixelSize 0.325 --mean-intensity-min 80
+  mcquant: --masks nucleiRing.ome.tif cellRing.ome.tif cytoRing.ome.tif
+modules:
+  registration:
+    version: 1.19.0b1
+  watershed:
+    version: 1.5.4-large
