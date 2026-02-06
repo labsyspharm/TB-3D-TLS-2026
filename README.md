@@ -71,6 +71,7 @@ If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(
 ## Other Repository 
 Image data generated during this study are available on the Gates TB Data Portal (https://idp.tissue-atlas.org/). For access, email tissue-atlas(at)hms.harvard.edu with the subject line "Gates TB Data Portal: Data Access".  
 ## FILE LIST 
+
 ## **CyCIF Image Data**​
 | Patient ID |File Name                     | Location | File Size (GB) | Antibody Panel |
 |-------------|-------------------------------|----------|---------------|----------------|
@@ -122,6 +123,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 | Patient2    | LSP16031.ome.tif              | AWS      | 11.30 | p17_e6_TB_Granulomas_GeoMx IF |
 
 
+
 ### H&E Image Data  
 | Patient ID  | File Name                  | Location | File Size (GB) |
 |-------------|----------------------------|----------|---------------|
@@ -167,6 +169,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 | Patient1_B4 | LSP24638.ome.tif           | AWS      | 11.72 |
 | Patient1_B5 | LSP16103.ome.tif           | AWS      | 0.84 |
 | Patient1_B5 | LSP16106.ome.tiff          | AWS      | 19.70 |​
+
 ### Segmentation Mask Data
 
 | Patient ID  | File Name            | File Size (GB) | Antibody Panel |
@@ -215,6 +218,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 | Patient1_B5 | LSP16102.ome.tif     | 0.316 | EO8_p17e25_PostGeoMx_CyCIF |
 | Patient1_B5 | LSP16104.ome.tif     | 6.83  | EO4_TB_MDSC_rerun |
 | Patient1_B5 | LSP16105.ome.tif     | 7.16  | EO5_B5 and AHRI samples |
+
 
 ### Features Table Data
 
@@ -265,6 +269,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 | Patient1_B5 | LSP16104.csv    | 1.71 | EO4_TB_MDSC_rerun |
 | Patient1_B5 | LSP16105.csv    | 2.24 | EO5_B5 and AHRI samples |
 
+
 ### 3D Imaris Image Data
 
 | Patient ID  | File Name                 | Location | File Size (GB) |
@@ -275,9 +280,7 @@ Image data generated during this study are available on the Gates TB Data Portal
 | Patient1_B4 | output4.ims               | AWS      | 65.60 |
 | Patient1_B4 | output5.ims               | AWS      | 142.00 |
 | Patient1_B4 | output6.ims               | AWS      | 65.30 |
-​
-​
- 
+
 --------------------------
 ADDITIONAL NOTES/COMMENTS
 --------------------------
