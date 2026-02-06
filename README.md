@@ -285,4 +285,4 @@ Image data generated during this study are available on the Gates TB Data Portal
 ADDITIONAL NOTES/COMMENTS
 --------------------------
 ​
-Please let **(Name, contact information)** know if any errors are found in this data.  
+​Please contact tissue-atlas(at)hms.harvard.edu if you have any questions related to the data.
