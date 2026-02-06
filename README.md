@@ -35,9 +35,7 @@ Relevant links:
 > * To view an archived record of this repository: [My-ZENODO-DOI](https://zenodo.org/doi/MY-ZENDODO-DOI-URL) 
 > * To view the image data online, visit: [My-ATLAS-PAGE](https://tissue-atlas.org/MY-ATLAS-PAGE-URL)
 > * Associated documentation website: [MY-PROJECT-WEBSITE](MY-PROJECT-WEBSITE-URL)  
-> * DOI of other publications that use the data: <If this data is being reused from a past publication, include DOI and APA citation>
-> * <Other important links if applicable>
-​
+> * DOI of other publications that use the data: <If this data is being reused from a past publication, include DOI and APA citation>​
 --------------------
 ACCESS THE DATASET 
 --------------------
