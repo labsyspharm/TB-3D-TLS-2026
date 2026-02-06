@@ -284,8 +284,7 @@ ADDITIONAL NOTES/COMMENTS
 
 ## Contributors
 
-- **Emmanuel Ogbonna** —   
-  GitHub: https://github.com/eddyyoung008
+- **Emmanuel Ogbonna** —  GitHub: https://github.com/eddyyoung008
   
 - **Soheil Rastgou Talemi** — 
   GitHub: https://github.com/RTSoheil
