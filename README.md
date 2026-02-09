@@ -29,6 +29,7 @@ GENERAL INFORMATION
  †Co-corresponding. 
 
 **Please cite this data as the following:**
+
 Ogbonna and Rastgou Talemi (2026). Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas.  {journal/biorxv}
   
 Relevant links:
@@ -64,7 +65,12 @@ AWS BUCKET NAME
 ​
 *For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
   
-If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".​
+If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".
+
+## GEO Data Access
+​
+GeoMx gene expression data is available via the Gene Expression Omnibus (GEO): Accession number: GSE318959
+​
 ## Other Repository 
 Image data generated during this study are available on the Gates TB Data Portal (https://idp.tissue-atlas.org/). For access, email tissue-atlas(at)hms.harvard.edu with the subject line "Gates TB Data Portal: Data Access".  
 ## FILE LIST 
