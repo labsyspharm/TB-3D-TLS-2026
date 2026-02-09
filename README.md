@@ -25,7 +25,8 @@ GENERAL INFORMATION
 ​
 **Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Ziyuan Zhao, Zoltan Maliga, Clarence Yapp, Yu-An Chen, Shishir Pant, Jeremy Muhlich, Brigette B.K. Kobs, Mariana Lopez Leon, Andréanne Gagné, Threnesan Naidoo, Angela Shih, Isaac H. Solomon, Sandro Santagata, Amanda J. Martinot, Adrie Steyn, Bree B. Aldridge†, Peter K. Sorger†
 
- *Authors contributed equally to this article.  †Co-corresponding. 
+ *Authors contributed equally to this article.  
+ †Co-corresponding. 
 
 Please cite this data as the following: Ogbonna and Rastgou Talemi (2026). Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas.  {journal/biorxv}
   
