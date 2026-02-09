@@ -28,11 +28,12 @@ GENERAL INFORMATION
  *Authors contributed equally to this article.  
  †Co-corresponding. 
 
-Please cite this data as the following: Ogbonna and Rastgou Talemi (2026). Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas.  {journal/biorxv}
+**Please cite this data as the following:**
+Ogbonna and Rastgou Talemi (2026). Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas.  {journal/biorxv}
   
 Relevant links:
 > * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
-> * Associated GitHub Repository: [MY-REPO](https://github.com/MY-REPO-URL)  
+> * Associated GitHub Repository: https://github.com/labsyspharm/TB-3D-TLS-2026/  
 > * To view an archived record of this repository: [My-ZENODO-DOI](https://zenodo.org/doi/MY-ZENDODO-DOI-URL) 
 > * To view the image data online, visit: [My-ATLAS-PAGE](https://tissue-atlas.org/MY-ATLAS-PAGE-URL)
 > * Associated documentation website: [MY-PROJECT-WEBSITE](MY-PROJECT-WEBSITE-URL)  
