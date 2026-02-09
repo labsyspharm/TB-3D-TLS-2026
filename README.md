@@ -69,7 +69,7 @@ If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(
 
 ## GEO Data Access
 ​
-GeoMx gene expression data is available via the Gene Expression Omnibus (GEO): Accession number: GSE318959
+GeoMx gene expression data is available via the Gene Expression Omnibus (GEO): Accession number:  GSE318959
 ​
 ## Other Repository 
 Image data generated during this study are available on the Gates TB Data Portal (https://idp.tissue-atlas.org/). For access, email tissue-atlas(at)hms.harvard.edu with the subject line "Gates TB Data Portal: Data Access".  
