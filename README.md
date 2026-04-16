@@ -20,7 +20,7 @@ GENERAL INFORMATION
 --------------------
 
 --------------------
-**Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas** 
+**Assembly and maturation of tertiary lymphoid structures in pulmonary tuberculosis-based 3D reconstruction and trajectory analysis** 
 --------------------
 ​
 **Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Ziyuan Zhao, Zoltan Maliga, Clarence Yapp, Yu-An Chen, Shishir Pant, Jeremy Muhlich, Brigette B.K. Kobs, Mariana Lopez Leon, Andréanne Gagné, Threnesan Naidoo, Angela Shih, Isaac H. Solomon, Sandro Santagata, Amanda J. Martinot, Adrie Steyn, Bree B. Aldridge†, Peter K. Sorger†
