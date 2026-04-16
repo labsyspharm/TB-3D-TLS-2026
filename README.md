@@ -1,6 +1,6 @@
 ​
 --------------------
-# Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas
+# Assembly and maturation of tertiary lymphoid structures in pulmonary tuberculosis-based 3D reconstruction and trajectory analysis 
 ------------------ 
 TABLE OF CONTENTS
 ------------------
