@@ -23,14 +23,14 @@ GENERAL INFORMATION
 **Assembly and maturation of tertiary lymphoid structures in pulmonary tuberculosis-based 3D reconstruction and trajectory analysis** 
 --------------------
 ​
-**Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Ziyuan Zhao, Zoltan Maliga, Clarence Yapp, Yu-An Chen, Shishir Pant, Jeremy Muhlich, Brigette B.K. Kobs, Mariana Lopez Leon, Andréanne Gagné, Threnesan Naidoo, Angela Shih, Isaac H. Solomon, Sandro Santagata, Amanda J. Martinot, Adrie Steyn, Bree B. Aldridge†, Peter K. Sorger†
+**Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Zoltan Maliga, Ziyuan Zhao, Clarence Yapp, Shishir Pant, Yi Daniel Lu, Andréanne Gagné, Amanda J. Martinot, Shannon Coy, Sandro Santagata, Angela Shih, Isaac H. Solomon, Threnesan Naidoo, Bree B. Aldridge, Adrie Steyn, Peter K. Sorger†
 
  *Authors contributed equally to this article.  
- †Co-corresponding. 
+ †Corresponding. 
 
 **Please cite this data as the following:**
 
-Ogbonna and Rastgou Talemi (2026). Multidimensional Spatial Characterization of Tertiary Lymphoid Structures in Human Pulmonary TB Lung Granulomas.  {journal/biorxv}
+Ogbonna and Rastgou Talemi (2026). Assembly and maturation of tertiary lymphoid structures in pulmonary tuberculosis-based 3D reconstruction and trajectory analysis.  {journal/biorxv}
   
 Relevant links:
 > * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
