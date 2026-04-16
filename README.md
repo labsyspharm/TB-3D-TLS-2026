@@ -35,7 +35,7 @@ Ogbonna and Rastgou Talemi (2026). Assembly and maturation of tertiary lymphoid 
 Relevant links:
 > * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
 > * Associated GitHub Repository: https://github.com/labsyspharm/TB-3D-TLS-2026/  
-> * To view an archived record of this repository: [My-ZENODO-DOI](https://zenodo.org/10.5281/zenodo.19616347) 
+> * To view an archived record of this repository: https://zenodo.org/10.5281/zenodo.19616347
 > * To view the image data online, visit: [My-ATLAS-PAGE](https://tissue-atlas.org/MY-ATLAS-PAGE-URL)
 > * Associated documentation website: [MY-PROJECT-WEBSITE](MY-PROJECT-WEBSITE-URL)  
 > * DOI of other publications that use the data: <If this data is being reused from a past publication, include DOI and APA citation>​
