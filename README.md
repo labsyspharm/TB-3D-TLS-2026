@@ -1,6 +1,6 @@
 ​
 --------------------
-# Assembly and maturation of tertiary lymphoid structures in pulmonary tuberculosis-based 3D reconstruction and trajectory analysis 
+# Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis 
 ------------------ 
 TABLE OF CONTENTS
 ------------------
