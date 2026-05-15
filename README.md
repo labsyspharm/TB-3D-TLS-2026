@@ -30,7 +30,7 @@ GENERAL INFORMATION
 
 **Please cite this data as the following:**
 
-Ogbonna and Rastgou Talemi (2026). Assembly and maturation of tertiary lymphoid structures in pulmonary tuberculosis-based 3D reconstruction and trajectory analysis.  {journal/biorxv}
+Ogbonna and Rastgou Talemi (2026). Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis.  {journal/biorxv}
   
 Relevant links:
 > * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
