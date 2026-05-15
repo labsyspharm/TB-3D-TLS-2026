@@ -23,14 +23,14 @@ GENERAL INFORMATION
 **Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis** 
 --------------------
 ​
-**Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Zoltan Maliga, Ziyuan Zhao, Clarence Yapp, Shishir Pant, Yi Daniel Lu, Andréanne Gagné, Amanda J. Martinot, Shannon Coy, Sandro Santagata, Angela Shih, Isaac H. Solomon, Threnesan Naidoo, Bree B. Aldridge, Adrie Steyn, Peter K. Sorger†
+**Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Zoltan Maliga, Ziyuan Zhao, Clarence Yapp, Shishir Pant, Yi Daniel Lu, Jeremy Muhlich, Andréanne Gagné, Amanda J. Martinot, Shannon Coy, Sandro Santagata, Angela Shih, Isaac H. Solomon, Threnesan Naidoo, Bree B. Aldridge, Adrie Steyn, Peter K. Sorger†
 
  *Authors contributed equally to this article.  
  †Corresponding. 
 
 **Please cite this data as the following:**
 
-Ogbonna and Rastgou Talemi (2026). Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis.  {journal/biorxv}
+Ogbonna and Rastgou Talemi (2026). Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis. biorxiv https://doi.org/10.64898/2026.XX.XX.725201 {journal/biorxv}
   
 Relevant links:
 > * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
