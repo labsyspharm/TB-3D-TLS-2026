@@ -30,14 +30,12 @@ GENERAL INFORMATION
 
 **Please cite this data as the following:**
 
-Ogbonna and Rastgou Talemi (2026). Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis. biorxiv https://doi.org/10.64898/2026.XX.XX.725201 {journal/biorxv}
+Ogbonna and Rastgou Talemi (2026). Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis. biorxiv https://doi.org/10.64898/2026.06.02.725201 
   
 Relevant links:
-> * Publication DOI: [doi.org/MY-PAPER-DOI](https://doi.org/MY-PAPER-DOI-URL) 
+> * Publication DOI: 
 > * Associated GitHub Repository: https://github.com/labsyspharm/TB-3D-TLS-2026/  
 > * To view an archived record of this repository: https://zenodo.org/10.5281/zenodo.19616347
-> * To view the image data online, visit: [My-ATLAS-PAGE](https://tissue-atlas.org/MY-ATLAS-PAGE-URL)
-> * Associated documentation website: [MY-PROJECT-WEBSITE](MY-PROJECT-WEBSITE-URL)  
 > * DOI of other publications that use the data: <If this data is being reused from a past publication, include DOI and APA citation>​
 --------------------
 ACCESS THE DATASET 
@@ -63,9 +61,9 @@ Full-resolution CyCIF images, single cell segmentation masks, and cell count tab
 AWS BUCKET NAME  
 ```
 ​
-*For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
+*For instructions on how to access data from AWS, visit “Access Laboratory of Systems Pharmacology Datasets on AWS” (https://zenodo.org/records/10223574)*     
   
-If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".
+If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "ogbonna-2026-tb-tls: Data Access".
 
 ## GEO Data Access
 ​
@@ -73,6 +71,7 @@ GeoMx gene expression data is available via the Gene Expression Omnibus (GEO): A
 ​
 ## Other Repository 
 Image data generated during this study are available on the Gates TB Data Portal (https://idp.tissue-atlas.org/). For access, email tissue-atlas(at)hms.harvard.edu with the subject line "Gates TB Data Portal: Data Access".  
+
 ## FILE LIST 
 
 ## **CyCIF Image Data**​
