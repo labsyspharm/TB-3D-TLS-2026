@@ -41,7 +41,7 @@ ACCESS THE DATASET
 Full-resolution CyCIF images, single cell segmentation masks, and cell count tables will be available via AWS.​ You will need the following bucket name:
 ​
 ```
-AWS bucket name: **lsp-public-data/ogbonna-2026-tb-tls**
+lsp-public-data/ogbonna-2026-tb-tls
 ```
 ​
 *For instructions on how to access data from AWS, visit “Access Laboratory of Systems Pharmacology Datasets on AWS” (https://zenodo.org/records/10223574)*     
