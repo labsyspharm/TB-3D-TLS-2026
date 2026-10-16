@@ -17,7 +17,7 @@ Tertiary lymphoid structures (TLSs) are sites of immune organization in peripher
 
 
 
-<img width="1963" height="960" alt="Figure 0_graphical_abstract-V2" src="https://github.com/user-attachments/assets/e644d82d-7f15-495a-a37d-c46d1d7d300c" />
+<img width="1177.8" height="576" alt="Figure 0_graphical_abstract-V2" src="https://github.com/user-attachments/assets/e644d82d-7f15-495a-a37d-c46d1d7d300c" />
 
 
 ## Relevant links:
