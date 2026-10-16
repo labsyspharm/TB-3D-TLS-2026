@@ -1,27 +1,5 @@
 ​
---------------------
 # Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis 
------------------- 
-TABLE OF CONTENTS
-------------------
-​
-* GENERAL INFORMATION
-  * ASSOCIATED PUBLICATION
-  * RECOMMENDED CITATION
-  * USEFUL LINKS
-* ACCESS THE DATASET
-  * FILE ORGANIZATION
-  * REPOSITORY LINKS
-  * FILE LIST
-* ADDITIONAL NOTES/COMMENTS
-​
---------------------
-GENERAL INFORMATION
---------------------
-
---------------------
-**Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis** 
---------------------
 ​
 **Authors**: Emmanuel C. Ogbonna*, Soheil R. Talemi*, Zoltan Maliga, Ziyuan Zhao, Clarence Yapp, Shishir Pant, Yi Daniel Lu, Jeremy Muhlich, Andréanne Gagné, Amanda J. Martinot, Shannon Coy, Sandro Santagata, Angela Shih, Isaac H. Solomon, Threnesan Naidoo, Bree B. Aldridge, Adrie Steyn, Peter K. Sorger†
 
@@ -31,12 +9,20 @@ GENERAL INFORMATION
 **Please cite this data as the following:**
 
 Ogbonna and Rastgou Talemi (2026). Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis. biorxiv https://doi.org/10.64898/2026.06.02.725201 
-  
-Relevant links:
-> * Publication DOI: 
-> * Associated GitHub Repository: https://github.com/labsyspharm/TB-3D-TLS-2026/  
-> * To view an archived record of this repository: https://zenodo.org/10.5281/zenodo.19616347
-> * DOI of other publications that use the data: <If this data is being reused from a past publication, include DOI and APA citation>​
+
+--------------------
+ABSTRACT 
+--------------------
+Tertiary lymphoid structures (TLSs) are sites of immune organization in peripheral tissues that arise from chronic inflammation. They play important roles in infection control and cancer but the mechanisms controlling their formation remain only partly understood. Here, we combine high-plex imaging, serial-section 3D reconstruction, and optimal transport trajectory modeling to reconstruct TLSs in human lungs infected with Mycobacterium tuberculosis. We find that the extended and irregular shape of TLSs is poorly captured by 2D histopathology or spatial profiling, making assessment of developmental stage (early, primary, or secondary) error prone. In contrast, modeling TLS development in 3D using optimal transport reveals two trajectories that differ in the timing and coordination of follicular dendritic cell association, germinal center consolidation, and position within the tissue. These findings highlight the value of volumetric analysis in understanding immune organization and provide new insights into TLS biology.
+
+
+
+<img width="1963" height="960" alt="Figure 0_graphical_abstract-V2" src="https://github.com/user-attachments/assets/e644d82d-7f15-495a-a37d-c46d1d7d300c" />
+
+
+## Relevant links:
+* Publication DOI: biorxiv https://doi.org/10.64898/2026.06.02.725201
+* To view an archived record of this repository: https://zenodo.org/10.5281/zenodo.19616347​
 --------------------
 ACCESS THE DATASET 
 --------------------
