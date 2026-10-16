@@ -23,7 +23,7 @@ These findings highlight the value of volumetric analysis in understanding immun
 - **Zenodo archived record:** https://doi.org/10.5281/zenodo.19616347
 - **CyCIF/H&E/3D imaging data:** `s3://lsp-public-data/ogbonna-2026-tb-tls/`
 - **GeoMx transcriptomic data:** [GEO GSE318959](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318959)
-- **Methods for OT:** Supplementary Methods accompanying the manuscript (a direct link will be added following publication)
+- **Methods for Optimal Transport (OT) analysis:** Supplementary Methods accompanying the manuscript (a direct link will be added following publication)
 
 ## About this repository
 
