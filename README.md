@@ -1,0 +1,306 @@
+[README (1).md](https://github.com/user-attachments/files/33581775/README.1.md)
+# Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis
+
+**Authors:** Emmanuel C. Ogbonna*, Soheil R. Talemi*, Zoltan Maliga, Ziyuan Zhao, Clarence Yapp, Shishir Pant, Yi Daniel Lu, Jeremy Muhlich, Andréanne Gagné, Amanda J. Martinot, Shannon Coy, Sandro Santagata, Angela Shih, Isaac H. Solomon, Threnesan Naidoo, Bree B. Aldridge, Adrie Steyn, Peter K. Sorger†
+
+*Authors contributed equally to this article. †Corresponding author.
+
+**Please cite this data as:** Ogbonna and Rastgou Talemi (2026). *Modeling development of tertiary lymphoid structures in pulmonary tuberculosis by 3D profiling and trajectory analysis*. bioRxiv. https://doi.org/10.64898/2026.06.02.725201
+
+## Abstract
+
+Tertiary lymphoid structures (TLSs) are sites of immune organization in peripheral tissues that arise from chronic inflammation. They play important roles in infection control and cancer but the mechanisms controlling their formation remain only partly understood. Here, we combine high-plex imaging, serial-section 3D reconstruction, and optimal transport trajectory modeling to reconstruct TLSs in human lungs infected with *Mycobacterium tuberculosis*.
+
+We find that the extended and irregular shape of TLSs is poorly captured by 2D histopathology or spatial profiling, making assessment of developmental stage (early, primary, or secondary) error prone. In contrast, modeling TLS development in 3D using optimal transport reveals two trajectories that differ in the timing and coordination of follicular dendritic cell association, germinal center consolidation, and position within the tissue.
+
+These findings highlight the value of volumetric analysis in understanding immune organization and provide new insights into TLS biology.
+
+<img width="1177.8" height="576" alt="Graphical abstract" src="https://github.com/user-attachments/assets/e644d82d-7f15-495a-a37d-c46d1d7d300c" />
+
+## Quick links
+
+- **Preprint:** https://doi.org/10.64898/2026.06.02.725201
+- **GitHub repository:** https://github.com/labsyspharm/TB-3D-TLS-2026
+- **Zenodo archived record:** https://doi.org/10.5281/zenodo.19616347
+- **CyCIF/H&E/3D imaging data:** `s3://lsp-public-data/ogbonna-2026-tb-tls/`
+- **GeoMx transcriptomic data:** [GEO GSE318959](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318959)
+- **Methods for OT:** Supplementary Methods accompanying the manuscript (a direct link will be added following publication)
+
+## About this repository
+
+This repository accompanies the study and provides access to available image-analysis scripts, processing configurations, and instructions for locating the data used in the manuscript. Data files themselves are hosted externally because of their size.
+
+### Available analysis code and configurations
+
+The main branch contains the following directories:
+
+| Directory | Description |
+|---|---|
+| [`CyCIF_analysis_scripts/`](CyCIF_analysis_scripts/) | CyCIF analysis scripts |
+| [`Matlab_scripts/`](Matlab_scripts/) | MATLAB analysis scripts |
+| [`mcmicro_params/`](mcmicro_params/) | MCMICRO processing parameter/configuration files |
+
+These directories do not constitute a complete implementation of every analysis described in the study. See the manuscript and Supplementary Methods for descriptions of the individual computational procedures.
+
+## Optimal transport (OT) trajectory analysis
+
+**Scientific question.** The OT-based analysis was used to model heterogeneity among 3D-reconstructed pulmonary TLSs and investigate potential developmental relationships among their observed structural states.
+
+**Interpretation.** The model identified two inferred trajectories that differ in the coordination of follicular dendritic cell association, germinal center consolidation, and tissue position. These are model-inferred developmental relationships, **not longitudinal observations** of the same TLSs.
+
+**Methods.** The detailed description of the OT approach and associated trajectory analysis is provided in the **Supplementary Methods submitted with the manuscript**. This is the methodological reference for the OT analysis; readers should consult it for the model specification, analysis procedures, and interpretation of the results. A direct link to the published Supplementary Methods will be added here once available.
+
+**Code availability.** The OT-specific implementation has **not yet been uploaded to this GitHub repository**. Accordingly, the analysis-script folders listed above should not be interpreted as containing the complete OT workflow. This README will be updated if the OT implementation becomes publicly available.
+
+## Access the dataset
+
+### File organization and formats
+
+The tables below list sample identifiers, file names, sizes and acquisition panels. The principal file types are:
+
+| File type | Description | Location |
+|---|---|---|
+| `.ome.tif` | Stitched multiplex CyCIF image pyramids | AWS |
+| `.ome.tif` / `.ome.tiff` | H&E images of adjacent FFPE tissue sections | AWS |
+| Segmentation `.ome.tif` | Cell segmentation masks | AWS |
+| `.csv` | Single-cell feature tables, including channel intensity measurements | AWS |
+| `.fastq` | GeoMx sequencing data | GEO |
+| `.ims` | Stitched and registered 3D multiplex CyCIF image files in Imaris format | AWS |
+
+### AWS data access
+
+The imaging datasets, segmentation masks and single-cell feature tables are hosted at the following AWS S3 location:
+
+```text
+s3://lsp-public-data/ogbonna-2026-tb-tls/
+```
+
+For instructions, consult [Access Laboratory of Systems Pharmacology Datasets on AWS](https://zenodo.org/records/10223574). If you encounter access problems, email **tissue-atlas(at)hms.harvard.edu** with subject **`ogbonna-2026-tb-tls: Data Access`**.
+
+### GEO data access
+
+GeoMx gene-expression data: **[GSE318959](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318959)** (Gene Expression Omnibus).
+
+### Gates TB Data Portal
+
+The study's imaging data are also described as available via the [Gates TB Data Portal](https://idp.tissue-atlas.org/). For access, email **tissue-atlas(at)hms.harvard.edu**, subject **`Gates TB Data Portal: Data Access`**.
+
+## File list
+
+File sizes and sample annotations below have been retained from the existing repository README. A file's inclusion in this inventory does not by itself verify that the corresponding AWS object is currently downloadable.
+
+### CyCIF image data
+
+| Patient ID | File name | Location | File size (GB) | Antibody panel |
+|---|---|---|---:|---|
+| Patient1_B4 | LSP24522.ome.tif | AWS | 222.37 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24525.ome.tif | AWS | 202.51 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24528.ome.tif | AWS | 202.57 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24531.ome.tif | AWS | 225.94 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24534.ome.tif | AWS | 220.79 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24537.ome.tif | AWS | 204.92 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24540.ome.tif | AWS | 191.57 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24543.ome.tif | AWS | 213.09 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24546.ome.tif | AWS | 205.37 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24549.ome.tif | AWS | 212.91 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24552.ome.tif | AWS | 199.53 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24555.ome.tif | AWS | 212.91 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24558.ome.tif | AWS | 221.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24561.ome.tif | AWS | 217.61 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24564.ome.tif | AWS | 214.29 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24567.ome.tif | AWS | 196.63 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24570.ome.tif | AWS | 207.13 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24573.ome.tif | AWS | 226.64 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24576.ome.tif | AWS | 230.50 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24579.ome.tif | AWS | 205.65 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24582.ome.tif | AWS | 226.38 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24585.ome.tif | AWS | 199.04 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24588.ome.tif | AWS | 215.38 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24591.ome.tif | AWS | 200.37 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24594.ome.tif | AWS | 217.11 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24597.ome.tif | AWS | 199.92 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24600.ome.tif | AWS | 202.57 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24603.ome.tif | AWS | 219.74 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24606.ome.tif | AWS | 219.70 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24609.ome.tif | AWS | 226.05 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24612.ome.tif | AWS | 197.44 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24615.ome.tif | AWS | 222.30 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24618.ome.tif | AWS | 197.84 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24621.ome.tif | AWS | 198.85 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24624.ome.tif | AWS | 198.49 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24627.ome.tif | AWS | 216.52 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24630.ome.tif | AWS | 210.79 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24633.ome.tif | AWS | 193.94 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24636.ome.tif | AWS | 203.49 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24639.ome.tif | AWS | 185.99 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B5 | LSP16101.ome.tif | AWS | 214.00 | ORION imaging panel |
+| Patient1_B5 | LSP16102_B5_Scan1.ome.tiff | AWS | 15.30 | p17_e6_TB_Granulomas_GeoMx IF |
+| Patient1_B5 | LSP16102.ome.tif | AWS | 19.20 | EO8_p17e25_PostGeoMx_CyCIF |
+| Patient1_B5 | LSP16104.ome.tif | AWS | 147.00 | EO4_TB_MDSC_rerun |
+| Patient1_B5 | LSP16105.ome.tif | AWS | 164.00 | EO5_B5 and AHRI samples |
+| Patient2 | LSP16031.ome.tif | AWS | 11.30 | p17_e6_TB_Granulomas_GeoMx IF |
+
+### H&E image data
+
+| Patient ID | File name | Location | File size (GB) |
+|---|---|---|---:|
+| Patient1_B4 | LSP24521.ome.tif | AWS | 12.15 |
+| Patient1_B4 | LSP24524.ome.tif | AWS | 14.00 |
+| Patient1_B4 | LSP24527.ome.tif | AWS | 13.48 |
+| Patient1_B4 | LSP24530.ome.tif | AWS | 12.78 |
+| Patient1_B4 | LSP24533.ome.tif | AWS | 13.78 |
+| Patient1_B4 | LSP24536.ome.tif | AWS | 16.61 |
+| Patient1_B4 | LSP24539.ome.tif | AWS | 16.72 |
+| Patient1_B4 | LSP24542.ome.tif | AWS | 16.42 |
+| Patient1_B4 | LSP24545.ome.tif | AWS | 18.33 |
+| Patient1_B4 | LSP24548.ome.tif | AWS | 13.97 |
+| Patient1_B4 | LSP24551.ome.tif | AWS | 12.54 |
+| Patient1_B4 | LSP24554.ome.tif | AWS | 13.91 |
+| Patient1_B4 | LSP24557.ome.tif | AWS | 13.83 |
+| Patient1_B4 | LSP24560.ome.tif | AWS | 13.21 |
+| Patient1_B4 | LSP24563.ome.tif | AWS | 13.25 |
+| Patient1_B4 | LSP24566.ome.tif | AWS | 13.93 |
+| Patient1_B4 | LSP24569.ome.tif | AWS | 13.46 |
+| Patient1_B4 | LSP24572.ome.tif | AWS | 14.41 |
+| Patient1_B4 | LSP24575.ome.tif | AWS | 13.23 |
+| Patient1_B4 | LSP24578.ome.tif | AWS | 13.43 |
+| Patient1_B4 | LSP24581.ome.tif | AWS | 13.23 |
+| Patient1_B4 | LSP24584.ome.tif | AWS | 12.64 |
+| Patient1_B4 | LSP24587.ome.tif | AWS | 13.73 |
+| Patient1_B4 | LSP24590.ome.tif | AWS | 13.01 |
+| Patient1_B4 | LSP24593.ome.tif | AWS | 12.73 |
+| Patient1_B4 | LSP24596.ome.tif | AWS | 13.72 |
+| Patient1_B4 | LSP24599.ome.tif | AWS | 17.65 |
+| Patient1_B4 | LSP24602.ome.tif | AWS | 11.89 |
+| Patient1_B4 | LSP24605.ome.tif | AWS | 16.95 |
+| Patient1_B4 | LSP24608.ome.tif | AWS | 14.84 |
+| Patient1_B4 | LSP24611.ome.tif | AWS | 13.68 |
+| Patient1_B4 | LSP24614.ome.tif | AWS | 13.78 |
+| Patient1_B4 | LSP24617.ome.tif | AWS | 13.49 |
+| Patient1_B4 | LSP24620.ome.tif | AWS | 14.22 |
+| Patient1_B4 | LSP24623.ome.tif | AWS | 13.12 |
+| Patient1_B4 | LSP24626.ome.tif | AWS | 13.01 |
+| Patient1_B4 | LSP24629.ome.tif | AWS | 13.53 |
+| Patient1_B4 | LSP24632.ome.tif | AWS | 12.78 |
+| Patient1_B4 | LSP24635.ome.tif | AWS | 13.39 |
+| Patient1_B4 | LSP24638.ome.tif | AWS | 11.72 |
+| Patient1_B5 | LSP16103.ome.tif | AWS | 0.84 |
+| Patient1_B5 | LSP16106.ome.tiff | AWS | 19.70 |
+
+### Segmentation mask data
+
+| Patient ID | File name | File size (GB) | Antibody panel |
+|---|---|---:|---|
+| Patient1_B4 | LSP24522.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24525.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24528.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24531.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24534.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24537.ome.tif | 16.73 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24540.ome.tif | 14.93 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24543.ome.tif | 16.73 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24546.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24549.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24552.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24555.ome.tif | 16.84 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24558.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24561.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24564.ome.tif | 16.84 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24567.ome.tif | 15.57 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24570.ome.tif | 16.84 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24573.ome.tif | 18.05 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24576.ome.tif | 18.05 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24579.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24582.ome.tif | 18.05 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24585.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24588.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24591.ome.tif | 15.57 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24594.ome.tif | 16.73 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24597.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24600.ome.tif | 16.84 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24603.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24606.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24609.ome.tif | 18.05 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24612.ome.tif | 16.08 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24615.ome.tif | 18.18 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24618.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24621.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24624.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24627.ome.tif | 17.39 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24630.ome.tif | 16.73 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24633.ome.tif | 15.57 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24636.ome.tif | 16.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24639.ome.tif | 14.93 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B5 | LSP16101.ome.tif | 22.30 | ORION imaging panel |
+| Patient1_B5 | LSP16102.ome.tif | 0.316 | EO8_p17e25_PostGeoMx_CyCIF |
+| Patient1_B5 | LSP16104.ome.tif | 6.83 | EO4_TB_MDSC_rerun |
+| Patient1_B5 | LSP16105.ome.tif | 7.16 | EO5_B5 and AHRI samples |
+
+### Feature-table data
+
+| Patient ID | File name | File size (GB) | Antibody panel |
+|---|---|---:|---|
+| Patient1_B4 | LSP24522.csv | 1.16 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24525.csv | 1.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24528.csv | 1.16 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24531.csv | 1.31 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24534.csv | 1.18 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24537.csv | 1.19 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24540.csv | 1.21 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24543.csv | 1.21 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24546.csv | 1.23 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24549.csv | 1.19 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24552.csv | 1.22 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24555.csv | 1.18 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24558.csv | 1.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24561.csv | 1.14 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24564.csv | 1.17 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24567.csv | 1.16 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24570.csv | 1.30 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24573.csv | 1.13 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24576.csv | 1.13 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24579.csv | 1.10 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24582.csv | 1.16 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24585.csv | 1.11 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24588.csv | 1.13 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24591.csv | 1.11 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24594.csv | 1.14 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24597.csv | 1.07 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24600.csv | 1.10 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24603.csv | 1.13 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24606.csv | 1.08 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24609.csv | 1.11 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24612.csv | 0.99 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24615.csv | 1.20 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24618.csv | 0.96 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24621.csv | 0.98 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24624.csv | 0.96 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24627.csv | 1.00 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24630.csv | 0.98 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24633.csv | 0.94 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24636.csv | 1.00 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B4 | LSP24639.csv | 0.92 | p17e16_EO7_B4_3D IMAGE RECONSTRUCTION |
+| Patient1_B5 | LSP16101.csv | 0.51 | ORION imaging panel |
+| Patient1_B5 | LSP16102.csv | 1.67 | EO8_p17e25_PostGeoMx_CyCIF |
+| Patient1_B5 | LSP16104.csv | 1.71 | EO4_TB_MDSC_rerun |
+| Patient1_B5 | LSP16105.csv | 2.24 | EO5_B5 and AHRI samples |
+
+### 3D image data (Imaris format)
+
+| Patient ID | File name | Location | File size (GB) |
+|---|---|---|---:|
+| Patient1_B4 | Patient1_B4_3D_TLS.ims | AWS | 8640.00 |
+| Patient1_B4 | output1.ims | AWS | 124.00 |
+| Patient1_B4 | output2.ims | AWS | 72.70 |
+| Patient1_B4 | output4.ims | AWS | 65.60 |
+| Patient1_B4 | output5.ims | AWS | 142.00 |
+| Patient1_B4 | output6.ims | AWS | 65.30 |
+
+## Additional notes / contact
+
+For questions about data availability, contact **tissue-atlas(at)hms.harvard.edu**.
+
+## Contributors
+
+- **Emmanuel Ogbonna:** https://github.com/eddyyoung008
+- **Soheil Rastgou Talemi:** https://github.com/RTSoheil
