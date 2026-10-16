@@ -21,7 +21,7 @@ These findings highlight the value of volumetric analysis in understanding immun
 - **Preprint:** https://doi.org/10.64898/2026.06.02.725201
 - **GitHub repository:** https://github.com/labsyspharm/TB-3D-TLS-2026
 - **Zenodo archived record:** https://doi.org/10.5281/zenodo.19616347
-- **CyCIF/H&E/3D imaging data:** `s3://lsp-public-data/ogbonna-2026-tb-tls/`
+- **CyCIF/H&E/3D imaging data on AWS S3:** `s3://lsp-public-data/ogbonna-2026-tb-tls/`
 - **GeoMx transcriptomic data:** [GEO GSE318959](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318959)
 - **Methods for Optimal Transport (OT) analysis:** Supplementary Methods accompanying the manuscript (a direct link will be added following publication)
 
