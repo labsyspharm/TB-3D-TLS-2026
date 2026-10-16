@@ -28,8 +28,6 @@ ACCESS THE DATASET
 ## File organization:   
 **Each file follows the following naming convention:**    
 ​
-Each folder corresponds to a patient sample (N). <Edit as needed if this folder structure does not fit the needs of your paper> 
- 
 |File Type           | Description                                                                        | Location|
 |--------------------| -----------------------------------------------------------------------------------|---------|
 |N.ome.tif           | Stitched multiplex CyCIF image pyramid in ome.tif format                           | AWS     |
