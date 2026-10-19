@@ -65,7 +65,7 @@ The tables below list sample identifiers, file names, sizes and acquisition pane
 |---|---|---|
 | `.ome.tif` | Stitched multiplex CyCIF image pyramids | AWS |
 | `.ome.tif` / `.ome.tiff` | H&E images of adjacent FFPE tissue sections | AWS |
-| Segmentation `.ome.tif` | Cell segmentation masks | AWS |
+| `.ome.tif` | Cell segmentation masks | AWS |
 | `.csv` | Single-cell feature tables, including channel intensity measurements | AWS |
 | `.fastq` | GeoMx sequencing data | GEO |
 | `.ims` | Stitched and registered 3D multiplex CyCIF image files in Imaris format | AWS |
