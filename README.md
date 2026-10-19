@@ -15,6 +15,10 @@ We find that the extended and irregular shape of TLSs is poorly captured by 2D h
 These findings highlight the value of volumetric analysis in understanding immune organization and provide new insights into TLS biology.
 
 <img width="1177.8" height="576" alt="Graphical abstract" src="https://github.com/user-attachments/assets/e644d82d-7f15-495a-a37d-c46d1d7d300c" />
+<br>
+<br> 
+
+<img width="2317" height="1835" alt="Figure 1-EO-V4" src="https://github.com/user-attachments/assets/30e3c5bd-8730-4f1c-8a27-8698b2d70089" />
 
 ## Quick links
 
